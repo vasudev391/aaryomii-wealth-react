@@ -1,0 +1,54 @@
+/* ================================================================
+   AARYOMII WEALTH — Design Token System
+   Brand 60-30-10 Rule:
+     60% → #FAF8F5  Warm Ivory   (backgrounds)
+     30% → #1B7A6B  Brand Teal   (structure)
+     10% → #C0272D  Brand Red    (action/accent)
+   ================================================================ */
+:root {
+  /* Brand */
+  --teal:         #1B7A6B;
+  --teal-deep:    #145C50;
+  --teal-mid:     #2A9684;
+  --teal-light:   #E6F4F1;
+  --teal-pale:    #F0FAF8;
+  --red:          #C0272D;
+  --red-light:    #D94040;
+  --red-dim:      rgba(192,39,45,0.08);
+  --maroon:       #3D1A1A;
+  --maroon-mid:   #5A2828;
+  --sky:          #B8D4E0;
+  --sky-light:    #DDF0F6;
+
+  /* Neutrals (60%) */
+  --white:        #FFFFFF;
+  --cream:        #FAF8F5;
+  --cream-mid:    #F2EEE9;
+  --cream-deep:   #E8E2DA;
+  --text:         #2B2018;
+  --text-muted:   #6B6056;
+  --text-light:   #9B8F85;
+  --border:       rgba(27,122,107,0.12);
+  --border-mid:   rgba(27,122,107,0.22);
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+
+  /* Radius */
+  --radius-xs:   3px;
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-pill: 100px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 4px rgba(27,122,107,0.06);
+  --shadow-sm: 0 4px 16px rgba(27,122,107,0.08);
+  --shadow-md: 0 8px 32px rgba(27,122,107,0.12);
+  --shadow-lg: 0 16px 48px rgba(27,122,107,0.15);
+
+  /* Motion */
+  --ease: 0.3s cubic-bezier(0.4,0,0.2,1);
+}

@@ -1,0 +1,76 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all var(--ease);
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+}
+
+/* Sizes */
+.sm { padding: 0.5rem 1.25rem; font-size: 0.72rem; }
+.md { padding: 0.875rem 2.2rem; font-size: 0.82rem; }
+.lg { padding: 1rem 2.8rem; font-size: 0.9rem; }
+
+/* Full width */
+.full { width: 100%; }
+
+/* Variants */
+.primary {
+  background: var(--red);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(192,39,45,0.25);
+}
+.primary:hover {
+  background: var(--red-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(192,39,45,0.35);
+}
+
+.outline {
+  background: transparent;
+  color: var(--teal);
+  border: 1.5px solid var(--teal);
+}
+.outline:hover {
+  background: var(--teal);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--teal);
+  border: 1.5px solid var(--border-mid);
+}
+.ghost:hover {
+  border-color: var(--teal);
+  background: var(--teal-light);
+}
+
+.white {
+  background: #fff;
+  color: var(--maroon);
+}
+.white:hover {
+  background: var(--cream);
+  transform: translateY(-2px);
+}
+
+.ghost-white {
+  background: transparent;
+  color: rgba(255,255,255,0.75);
+  border: 1.5px solid rgba(255,255,255,0.25);
+}
+.ghost-white:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.5);
+  color: #fff;
+}

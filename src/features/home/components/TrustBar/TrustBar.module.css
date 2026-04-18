@@ -1,0 +1,7 @@
+.bar { background: var(--teal); padding: 1rem 0; }
+.inner { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
+.label { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.5); white-space: nowrap; flex-shrink: 0; }
+.badges { display: flex; gap: 1.75rem; flex-wrap: wrap; align-items: center; }
+.badge { display: flex; align-items: center; gap: 0.4rem; font-size: 0.78rem; font-weight: 500; color: rgba(255,255,255,0.85); white-space: nowrap; }
+.icon { color: var(--sky-light); font-size: 0.6rem; }
+@media (max-width: 768px) { .inner { justify-content: center; flex-direction: column; gap: 0.75rem; text-align: center; } .badges { justify-content: center; } }

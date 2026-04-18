@@ -1,0 +1,11 @@
+.faq { background: var(--white); }
+.inner { max-width: 780px; }
+.list { display: flex; flex-direction: column; }
+.item { border-bottom: 1px solid var(--cream-deep); }
+.question { width: 100%; text-align: left; padding: 1.25rem 0; font-size: 0.93rem; font-weight: 500; color: var(--maroon); display: flex; justify-content: space-between; align-items: center; gap: 1rem; transition: color var(--ease); cursor: pointer; background: none; border: none; font-family: var(--font-body); }
+.question[aria-expanded="true"] { color: var(--teal); }
+.icon { font-size: 1.35rem; font-weight: 300; color: var(--teal); flex-shrink: 0; transition: transform var(--ease); line-height: 1; }
+.iconOpen { transform: rotate(45deg); }
+.answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease, padding 0.35s ease; }
+.answerOpen { max-height: 320px; padding-bottom: 1.25rem; }
+.answer p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.8; }
